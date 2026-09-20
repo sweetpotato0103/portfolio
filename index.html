@@ -25,6 +25,13 @@
     @media(max-width:850px){.architecture-track{gap:18px}.architecture-track .architecture-card{flex-basis:calc((100% - 18px)/2)}.carousel-arrow.prev{left:-18px}.carousel-arrow.next{right:-18px}.portfolio-spreads.four{height:min(46vh,360px)}}
     @media(max-width:600px){.architecture-track{gap:12px}.architecture-track .architecture-card{flex-basis:calc((100% - 12px)/2)}.carousel-arrow{display:none}.portfolio-spreads.four{display:grid;grid-template-columns:1fr;height:auto}.portfolio-spreads.four button:first-child{grid-row:auto}.screen.hero.directory-open .hero-inner[data-reveal]{transform:translateY(-20vh)}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}[data-reveal]{opacity:1;transform:none}}
+    .architecture-detail{display:block;height:100svh;min-height:0;padding-top:130px;padding-bottom:64px;overflow-x:hidden;overflow-y:auto;scroll-snap-align:none;scroll-behavior:smooth;overscroll-behavior-y:contain}
+    .architecture-detail>.inner{margin:0 auto}
+    .architecture-detail .portfolio-spreads,.architecture-detail .portfolio-spreads.three,.architecture-detail .portfolio-spreads.four,.architecture-detail .portfolio-spreads.five{display:flex;flex-direction:column;height:auto;gap:26px}
+    .architecture-detail .spread-button{display:block;width:100%;height:auto;min-height:0;overflow:visible;background:#f7f7f5}
+    .architecture-detail .spread-button img{width:100%;height:auto;max-height:none;object-fit:contain}
+    .architecture-detail .below{position:static;display:block;width:max-content;margin:48px auto 0;padding:16px 24px;transform:none!important}
+    @media(max-width:600px){.architecture-detail{padding:96px 20px 45px}.architecture-detail .portfolio-spreads,.architecture-detail .portfolio-spreads.three,.architecture-detail .portfolio-spreads.four,.architecture-detail .portfolio-spreads.five{gap:14px}.architecture-detail .spread-button{height:auto;min-height:0}.architecture-detail .below{margin-top:32px}}
     .detail-panel{display:none}
     html{scroll-snap-type:y proximity}
     .progress{display:none}
